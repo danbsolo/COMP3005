@@ -1,3 +1,5 @@
+[Click here for the video demonstration.](https://drive.google.com/file/d/1veIKnR6SBArFgYTH_vzpGu8naF2_PM1g/view?usp=sharing)
+
 Requires the psycopg2 library. Install with `pip install psycopg2`.
 
 If you're running `main.py` directly, you'll need to create a `creds.json` file located in the same directory as `main.py`. See `credsExample.json`.
