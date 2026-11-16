@@ -60,13 +60,13 @@ if __name__ == "__main__":
     psql = PSQL_Connection(creds["HOST"], creds["DATABASE"], creds["USER"], creds["PASSWORD"], creds["PORT"])
 
     # 1
-    #psql.getAllStudents()
+    psql.getAllStudents()
 
     # 2
-    #psql.addStudent("Daniel", "Solomon", "example@gmail.com", datetime.now())
+    psql.addStudent("Daniel", "Solomon", "example@gmail.com", datetime.now())
     
     # 3
-    #psql.updateStudentEmail("4", "kekw@kek.conn")
+    psql.updateStudentEmail("4", "kekw@kek.conn")
     
     # 4
     psql.deleteStudent("1")
