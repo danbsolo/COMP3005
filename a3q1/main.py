@@ -71,9 +71,5 @@ if __name__ == "__main__":
     # 4
     psql.deleteStudent("1")
 
-    # Print all students again to see changes in the database
-    print()
-    psql.getAllStudents()
-
     psql.close()
     
